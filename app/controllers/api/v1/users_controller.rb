@@ -1,5 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-    before_action :find_fact, only: [:show, :update, :destroy]
+    before_action :find_user, only: [:show, :update, :destroy]
 
     # GET /users
     def index
@@ -47,7 +47,7 @@ class Api::V1::UsersController < ApplicationController
         params.require(:user).permit(:username, :password)
     end
 
-    def find_fact
+    def find_user
         @user = User.find(params[:id])
     end
 
