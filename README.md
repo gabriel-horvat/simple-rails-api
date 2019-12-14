@@ -1,24 +1,5 @@
-# README
+# Super Basic Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a super basic Rails API that I coded up for practice.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![screenshot](RailsApiScreenshot.png)
